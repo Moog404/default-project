@@ -127,3 +127,10 @@ commands:
       git commit -m "init Symfony"
       git push
     usage: init the symfony application in your local repository
+
+  install-tabler:
+    cmd: |
+      composer require symfony/webpack-encore-bundle
+      npm install
+      npm require @tabler/core
+    usage: install Tabler asset
